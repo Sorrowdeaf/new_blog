@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_y#xuqa81m99zsmf@3plw-es_=vz+(!*t&+d2!(q81ntn7g*f@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sorrow-blog.herokuapp.com']
 
 
 # Application definition
